@@ -34,7 +34,7 @@ const MainContent = () => {
                 <DiJavascript1 className='icons script'/>
             </div>
             <div className="card react">
-                <h2>React</h2>
+                <h2>ReactJS</h2>
                 <DiReact className='icons react'/>
             </div>
             <div className="card sass">
