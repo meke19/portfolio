@@ -1,0 +1,65 @@
+@use '../variables'
+#projects
+    width: 90%
+    max-width: 980px
+    align-items: center
+    margin: 60px auto
+    .titleProject
+        text-align: center
+        color: white
+        padding-bottom: 70px
+        span
+            font-weight: bold
+            animation: brilho 2.50s ease-in-out infinite 
+            font-size:  70px 
+            &:nth-of-type(2)
+                animation-delay: 0.25s
+            &:nth-of-type(3)
+                animation-delay: 0.50s
+            &:nth-of-type(4)
+                animation-delay: 0.75s
+            &:nth-of-type(5)
+                animation-delay: 1s
+            &:nth-of-type(6)
+                animation-delay: 1.25s
+            &:nth-of-type(7)
+                animation-delay: 1.50s
+            &:nth-of-type(8)
+                animation-delay: 1.75s
+            &:nth-of-type(9)
+                animation-delay: 2s
+            &:nth-of-type(10)
+                animation-delay: 2.25s
+    .card-project
+        .card
+            display: flex
+            margin-bottom: 50px
+            .pro 
+                border: variables.$color-global 1px solid
+                margin-top: 30px
+                margin-left: 20px
+                height: 195px
+                width: 310px
+                border-radius: 20px
+                display: flex
+                align-items: center
+                justify-content: center
+                cursor: pointer
+                overflow: hidden
+                transition: ease-in-out 0.3s
+
+                div p
+                    font-family: 'Fira Sans', sans-serif
+                    font-size: 20px
+                    color: variables.$color-global
+
+                &:hover
+                    letter-spacing: 5px
+
+                div
+                    background-color: #fdfdfd
+                    width: 1000px
+                    text-align: center
+                    padding: 5% 0
+                    transform: rotate(-50deg)
+                

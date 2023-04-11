@@ -1,0 +1,84 @@
+@use '../variables'
+#scrollTecnology
+    margin: 100px auto
+    .titleName
+        .titleTec
+            text-align: center
+            color: white
+            span
+                font-weight: bold
+                animation: brilho 2.50s ease-in-out infinite 
+                font-size:  70px
+                &:nth-of-type(2)
+                    animation-delay: 0.25s
+                &:nth-of-type(3)
+                    animation-delay: 0.50s
+                &:nth-of-type(4)
+                    animation-delay: 0.75s
+                &:nth-of-type(5)
+                    animation-delay: 1s
+                &:nth-of-type(6)
+                    animation-delay: 1.25s
+                &:nth-of-type(7)
+                    animation-delay: 1.50s
+                &:nth-of-type(8)
+                    animation-delay: 1.75s
+                &:nth-of-type(9)
+                    animation-delay: 2s
+                &:nth-of-type(10)
+                    animation-delay: 2.25s
+    @keyframes brilho
+                0%
+                    color: white
+                    text-shadow: 0 0 50px variables.$color-global, 0 0 100px variables.$color-global, 0 0 150px variables.$bg-color
+                10%, 90%
+                    color: grey
+                    text-shadow: none
+    .titleName-2
+        margin-bottom: 30px 
+        color: grey
+        text-align: center                   
+    .tecnology, .tecnology-2
+        width: 90%
+        max-width: 980px
+        margin: 30px auto
+        display: grid
+        grid-template-columns: 310px 310px 310px
+        grid-gap: 22px 12px
+        .card
+            border-radius: 5px
+            border: variables.$color-global 1px solid
+            transition: 1s
+            display: grid
+            place-items: center 
+            padding: 20px
+            h2
+                color: white
+            .icons
+                width: 150px
+                height: 150px
+                &.script
+                    color: #F0DB4F
+                &.react
+                    color: #61DBFB
+                &.sass
+                    color: #e6073f
+                &.html
+                    color: #ac3a1e
+                &.css
+                    color: #2211c0
+                &.git
+                    color: #e23804
+                    width: 290px
+                &.node
+                    color: #00e40b
+                    width: 290px
+                &.docker
+                    color: #0029df
+                    width: 290px
+                &.typescript
+                    color: #193bcf
+                    width: 290px
+            &:hover
+                transform: translateY(-5px)
+                cursor: pointer    

@@ -1,0 +1,23 @@
+@use 'variables'
+html
+    font-size: 62.5% 
+    scroll-behavior: smooth   
+
+*
+    padding: 0
+    margin: 0
+    font-family: variables.$font-stack
+    box-sizing: border-box
+
+body 
+    background-color: variables.$bg-color
+    font-size: 1.6rem
+    height: 100vh    
+    color: black  
+
+a, svg
+    transition: .4s 
+
+@media (max-width: 768px)
+    html
+        font-size: 50%                   

@@ -1,0 +1,35 @@
+@use '../variables'
+    
+.header 
+    display: flex
+    flex-direction: row
+    width: 90%
+    max-width: 980px
+    height: 90px
+    align-items: center
+    justify-content: space-between
+    margin: auto
+    .logoArea
+        img
+           width: 300px 
+           margin-left: -31px    
+           &:hover
+            cursor: pointer 
+            -webkit-transform:scale(2.2)
+    .linksArea
+        ul
+            list-style: none
+            display: flex
+            gap: 2em
+            color: white
+            li 
+              a
+                text-decoration: none
+                color: white
+                background-image: linear-gradient(90deg, red,blue)
+                background-repeat: no-repeat
+                background-size: 0% 3px
+                background-position: left bottom 
+                &:hover
+                    background-size: 100% 3px
+
