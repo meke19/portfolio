@@ -7,7 +7,7 @@
     .titleProject
         text-align: center
         color: white
-        padding-bottom: 70px
+        margin-bottom: 10px
         span
             font-weight: bold
             animation: brilho 2.50s ease-in-out infinite 
@@ -32,8 +32,9 @@
                 animation-delay: 2.25s
     .card-project
         .card
-            display: flex
-            margin-bottom: 50px
+            display: grid
+            grid-template-columns: 310px 310px 310px
+            grid-gap: 1px 20px
             .pro 
                 border: variables.$color-global 1px solid
                 margin-top: 30px

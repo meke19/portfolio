@@ -1,5 +1,4 @@
 import ImgAbout from '../img/ImgAbout.jpeg'
-import Navegation from './Navegation'
 import "../styles/components/aboutMe.sass"
 
 export default function AboutMe(){
@@ -8,9 +7,10 @@ export default function AboutMe(){
             <div id='container'>
                 <div className="describe">
                     <h2>Olá meu nome é <span>Marcos</span></h2>
-                    <p>Sou uma pessoa que sempre gostou de tecnologia e 
-                        tudo que engloba esse mundo, o estudo nessa área é algo prazeroso que 
-                        pratico todos dias se deixar e nesse momento busco uma oportunidade no mercado.
+                    <p>Sou formado em técnico de informática e atualmente estou cursando Análise e desenvolvimento
+                        de sistemas, estou em busca de uma oportunidade de trabalho. Tecnologia é algo que sempre
+                        me atraiu, com isso o estudo dessa área e tudo que engloba esse mundo, 
+                        mesmo em excesso é sempre prazeroso.
                     </p>
                 </div>
                 <div className="MyPicture">

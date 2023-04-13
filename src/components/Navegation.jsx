@@ -10,8 +10,8 @@ const Navegation = () => {
             <div className="linksArea">
                 <ul>
                     <li><a href="#scrollTecnology">Tecnologias</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#container">Contato</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#scrollFooter">Contato</a></li>
                 </ul>
             </div>
         </header>  

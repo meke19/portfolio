@@ -26,6 +26,15 @@ export default function Projects(){
                     <div className="pro">
                         <div className="breve"><p>EM BREVE</p></div>
                     </div>
+                    <div className="pro">
+                        <div className="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div className="pro">
+                        <div className="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div className="pro">
+                        <div className="breve"><p>EM BREVE</p></div>
+                    </div>
                 </div>
             </div>
         </section>

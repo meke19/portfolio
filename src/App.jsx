@@ -4,6 +4,7 @@ import MainContent from "./components/MainContent";
 import Sidebar from "./components/Sidebar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
+import Footer from './components/Footer'
 
 import "./styles/components/app.sass";
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <MainContent/>
       <AboutMe/>
       <Projects/>
+      <Footer/>
     </div>
   );
 }
