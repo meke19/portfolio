@@ -1,6 +1,6 @@
 @use '../variables'
 #scrollTecnology
-    margin: 100px auto
+    margin: 100px auto   
     .titleName
         .titleTec
             text-align: center
@@ -8,7 +8,7 @@
             span
                 font-weight: bold
                 animation: brilho 2.50s ease-in-out infinite 
-                font-size:  70px
+                font-size:  7.0rem
                 &:nth-of-type(2)
                     animation-delay: 0.25s
                 &:nth-of-type(3)
@@ -43,7 +43,7 @@
         max-width: 980px
         margin: 30px auto
         display: grid
-        grid-template-columns: 310px 310px 310px
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))	
         grid-gap: 22px 12px
         .card
             border-radius: 5px
