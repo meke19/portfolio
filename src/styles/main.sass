@@ -6,19 +6,31 @@ html
 *
     padding: 0
     margin: 0
+    outline: 0
     font-family: variables.$font-stack
     box-sizing: border-box
 
 body 
     background-color: variables.$bg-color
     font-size: 1.6rem
+    overflow-x: hidden
     height: 100vh    
-    color: black  
+    color: black 
 
 a, svg
     transition: .4s 
 
-@media (max-width: 768px)
+@media (max-width: 426px)
     html
-        font-size: 50%                   
+        font-size: 50%
+    body
+        width: 100% 
+        max-width: 426px               
+@media (max-width: 320px)
+    html
+        font-size: 50%
+    body
+        width: 480px
+    
+                      
                

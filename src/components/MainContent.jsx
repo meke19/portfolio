@@ -53,9 +53,6 @@ const MainContent = () => {
             <p> Tecnologias que eu quero aprender</p>
          </div> 
          <section className="tecnology-2">
-            <div className="card node">
-                <DiNodejs className='icons node'/>
-            </div>
             <div className="card docker">
                 <FaDocker className='icons docker'/>
             </div>

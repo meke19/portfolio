@@ -11,7 +11,7 @@ const Sidebar = () => {
                 <a href={Curriculo} target="_blank" className="btn download">Download CV</a>
             </div>
             <div className="cardIcon">
-                <AiFillCode size={400} className="icon"/>
+                <AiFillCode size={350} className="icon"/>
             </div>
         </div>
     )
