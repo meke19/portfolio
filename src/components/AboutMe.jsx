@@ -1,4 +1,4 @@
-import ImgAbout from '../img/ImgAbout2.jpeg'
+import ImgAbout from '../img/imgAbout2.jpeg'
 import "../styles/components/aboutMe.sass"
 
 export default function AboutMe(){
