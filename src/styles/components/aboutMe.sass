@@ -1,40 +1,40 @@
 @use '../variables'
-    
-#container
-    display: flex
-    flex-direction: row
+#scrollAbout
     width: 90%
     max-width: 980px
-    align-items: center
-    justify-content: space-between
     margin: 200px auto
-    .describe
-        width: 50%
-        h2
-            color: white
-            margin-bottom: 10px
-            font-size: 4rem
-            span
-                color: variables.$color-global
-        p
-            margin-top: 1em 
-            color: grey
-            font-size: 1.5rem  
-            line-height: 3.0rem
-    img
-        width: 350px
-        height: 450px
-        border-radius: 5px
-        border: solid 5px variables.$color-global
-@media (max-width: 768px)
-    #container
-        flex-direction: column
-        width: 100%
-        margin-bottom: 20px
+    .container
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
         .describe
-            width: 67%
+            width: 50%
+            h2
+                color: white
+                margin-bottom: 10px
+                font-size: 4rem
+                span
+                    color: variables.$color-global
+            p
+                margin-top: 1em 
+                color: grey
+                font-size: 1.5rem  
+                line-height: 3.0rem
+        img
+            width: 350px
+            height: 450px
+            border-radius: 5px
+            border: solid 5px variables.$color-global
+    @media (max-width: 768px)
+        .container
+            flex-direction: column
+            width: 100%
             margin-bottom: 20px
-        .MyPicture img
-            width: 290px
-            height: 299px
-       
+            .describe
+                width: 67%
+                margin-bottom: 20px
+            .MyPicture img
+                width: 290px
+                height: 299px
+        

@@ -3,8 +3,8 @@ import "../styles/components/aboutMe.sass"
 
 export default function AboutMe(){
     return(
-        <section className="scrollAbout">
-            <div id='container'>
+        <section id="scrollAbout">
+            <div className='container'>
                 <div className="describe">
                     <h2>Olá meu nome é <span>Marcos</span></h2>
                     <p>Sou formado em técnico de informática e atualmente estou cursando Análise e desenvolvimento
