@@ -12,7 +12,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://wa.me/5519989531606" target="_blank">
+                    <a href="mailto:mlkmarcos13@gmail.com" target="_blank">
                         <AiOutlineMail/>
                     </a>
                 </li>
