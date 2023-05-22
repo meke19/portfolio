@@ -1,5 +1,5 @@
 import React from "react";
-import {AiFillLinkedin, AiOutlineMail} from 'react-icons/ai'
+import {AiFillLinkedin, AiOutlineMail, AiFillGithub} from 'react-icons/ai'
 import '../styles/components/footer.sass'
 
 const Footer = () => {
@@ -14,6 +14,11 @@ const Footer = () => {
                 <li>
                     <a href="mailto:mlkmarcos13@gmail.com" target="_blank">
                         <AiOutlineMail/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/meke19?tab=repositories" target="_blank">
+                        <AiFillGithub/>
                     </a>
                 </li>
             </ul>

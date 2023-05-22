@@ -10,8 +10,8 @@
         margin-bottom: 10px
         span
             font-weight: bold
-            animation: brilho 2.50s ease-in-out infinite 
-            font-size:  7.0rem 
+            animation: brilho 2.50s ease-in-out infinite
+            font-size: 7.0rem
             &:nth-of-type(2)
                 animation-delay: 0.25s
             &:nth-of-type(3)
@@ -33,11 +33,33 @@
     .card-project
         .card
             display: grid
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))	
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
             grid-gap: 22px 12px
             justify-items: center
             align-items: center
-            .pro 
+            .movie
+                margin-top: 30px
+                margin-left: 20px
+                height: 195px
+                width: 310px
+                border-radius: 20px
+                background-image: url(../../img/projetoimg.png)
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: center center
+                border: variables.$color-global 1px solid
+            .clima
+                margin-top: 30px
+                margin-left: 20px
+                height: 195px
+                width: 310px
+                border-radius: 20px
+                background-image: url(../../img/clima.png)
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: center center
+                border: variables.$color-global 1px solid
+            .pro
                 border: variables.$color-global 1px solid
                 margin-top: 30px
                 margin-left: 20px
@@ -50,7 +72,6 @@
                 cursor: pointer
                 overflow: hidden
                 transition: ease-in-out 0.3s
-
                 div p
                     font-family: 'Fira Sans', sans-serif
                     font-size: 2.0rem
@@ -68,8 +89,3 @@
 @media (max-width: 1024px)
     .pro
         width: 10px
-
-
-
-
-                

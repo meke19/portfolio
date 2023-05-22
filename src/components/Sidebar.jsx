@@ -1,6 +1,6 @@
 import "../styles/components/sidebar.sass"
 import {AiFillCode} from 'react-icons/ai'
-import Curriculo from '../pdf/curriculo.pdf'
+import Curriculo from '../pdf/curriculo_23.pdf'
 
 const Sidebar = () => {
     return(
