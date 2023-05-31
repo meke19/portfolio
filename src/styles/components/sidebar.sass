@@ -1,17 +1,15 @@
 @use '../variables'
 #row
     display: flex
-    flex-direction: row
     width: 90%
     max-width: 980px
-    align-items: center
-    justify-content: space-between
     margin: 60px auto
+    justify-content: space-between
     .cardText
         display: flex
         flex-direction: column
         justify-content: center
-        margin: auto
+       
         .title
             margin-bottom: .1em
             font-size: 6.0rem
@@ -47,15 +45,15 @@
         color: white  
         display: flex
         flex-direction: column
-        padding: 30px
-        width: 400px 
-        margin: auto
+        justify-content: center
+        align-items: center
+        
 @media (max-width: 768px)
     #row
         flex-direction: column
         text-align: center
         margin: 10px auto
-        width: 400px 
+     
         .cardText .title
             font-size: 4.0rem
         .btn

@@ -2,7 +2,6 @@
 #projects
     width: 90%
     max-width: 980px
-    align-items: center
     margin: 60px auto
     .titleProject
         text-align: center
@@ -34,12 +33,8 @@
         .card
             display: grid
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
-            grid-gap: 22px 12px
-            justify-items: center
-            align-items: center
             .movie
-                margin-top: 30px
-                margin-left: 20px
+                margin: 10px auto
                 height: 195px
                 width: 310px
                 border-radius: 20px
@@ -49,8 +44,7 @@
                 background-position: center center
                 border: variables.$color-global 1px solid
             .clima
-                margin-top: 30px
-                margin-left: 20px
+                margin: 10px auto
                 height: 195px
                 width: 310px
                 border-radius: 20px
@@ -61,8 +55,7 @@
                 border: variables.$color-global 1px solid
             .pro
                 border: variables.$color-global 1px solid
-                margin-top: 30px
-                margin-left: 20px
+                margin: 10px auto
                 height: 195px
                 width: 310px
                 border-radius: 20px
@@ -87,5 +80,9 @@
                     padding: 5% 0
                     transform: rotate(-50deg)
 @media (max-width: 1024px)
-    .pro
-        width: 10px
+    .pro, .movie, .clima
+        max-width: 297px
+        
+
+        
+
