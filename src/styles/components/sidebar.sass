@@ -41,13 +41,11 @@
             transition: all 150ms ease-in-out
             &:hover
                 box-shadow: 0 0 10px 0 variables.$color-global inset, 0 0 10px 4px variables.$color-global
-    .cardIcon
-        color: white  
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
+    .cardIcon img 
+        width: 400px
         
+
+       
 @media (max-width: 768px)
     #row
         flex-direction: column
@@ -62,6 +60,11 @@
         
         .cardIcon
             order: -1
+        .cardIcon img 
+            width: 300px
+@media (max-width: 320px)
+    .cardIcon img 
+        width: 300px
 
        
           

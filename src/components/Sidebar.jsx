@@ -1,5 +1,6 @@
 import "../styles/components/sidebar.sass"
 import {AiFillCode} from 'react-icons/ai'
+import ImagemCode from '../img/coding_img.png'
 import Curriculo from '../pdf/curriculo_23.pdf'
 
 const Sidebar = () => {
@@ -11,7 +12,7 @@ const Sidebar = () => {
                 <a href={Curriculo} target="_blank" className="btn download">Download CV</a>
             </div>
             <div className="cardIcon">
-                <AiFillCode size={350} className="icon"/>
+                <img src={ImagemCode} />
             </div>
         </div>
     )
