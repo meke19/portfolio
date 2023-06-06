@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Footer from './components/Footer'
+import GoToTop from "./components/GoToTop";
 
 import "./styles/components/app.sass";
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <MainContent/>
       <AboutMe/>
       <Projects/>
+      <GoToTop/>
       <Footer/>
     </div>
   );
